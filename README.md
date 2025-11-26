@@ -35,8 +35,14 @@
 
 | Название таблицы | Название первичного ключа |
 |------------------|---------------------------|
-| actor            | actor_id                  |
+| address          | address_id                |
+| city             | city_id                   |
+| customer         | customer_id               |
 | film             | film_id                   |
-| film_actor       | actor_id, film_id         |
+| payment          | payment_id                |
+| staff            | staff_id                  |
+| store            | store_id                  |
 
+**Скриншот таблиц базы данных sakila:**
+![Таблицы базы данных sakila](sakila-tables2.png)
 
